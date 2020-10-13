@@ -1,0 +1,5 @@
+1. Printing Maze
+When processing the print Maze, it goes to the TextMaze class. In the class, the printMaze method would take an Maze object and loop through its mazeArray which is a 2d array of Cell objects. Each Cell object holds an Element enum which is used to know what the method should print. It matches the element to the corresponding char and prints the char.
+
+2. Hero Movement
+Once the nextRound method in the Game class receives a move, it sends the move and the maze to the gameElements class. Inside the moveHero method, it first gives the move to the Hero object, which changes its position. After, it would detect if the move is valid, by looking at the Cell's Element and seeing if the next move would land on a WALL or OPEN. If valid move, it would change the Elements of the Cells and run a heroSurroundView method to enable visibility of the surrounding Cells objects. Else it would change the Hero object's position back to the original position.
