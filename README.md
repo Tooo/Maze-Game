@@ -7,7 +7,7 @@ Locate and collect the power to kill all three monster before they kill you.
 2. Click "Get from VCS" or File->New->Project From Version Control
 3. Insert the following URL:
 ```
-https://github.com/Toooo123/Maze-Game.git
+https://github.com/Tooo/Maze-Game.git
 ```
 4. Run Main
 
